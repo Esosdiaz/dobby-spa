@@ -1,0 +1,39 @@
+.foot{
+	background-color: $cafe-oscuro;
+	@include container();
+	.social{
+		padding-left: 50px;
+		padding-right: 50px;
+		.texto-social{
+			font-size: $letra-chica2;
+			img{
+				float: left;
+				padding-right: 10px;
+			}
+		}
+		p{
+			font-size: $letra-chica2;
+		}
+		h3{
+			font-size: $letra-mediana;
+			font-weight: 700;
+		}
+		ul{
+			li{
+				list-style: none;
+				display: inline-block;
+				a{
+					img{
+						@include sociales();
+					}
+				}
+			}
+		}
+	}
+}
+.final{
+	font-size: $letra-chica;
+	border-top: 1px solid $cafe-claro;
+	margin-top: 50px;
+	padding-top: 30px;
+}

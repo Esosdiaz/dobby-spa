@@ -14,7 +14,7 @@
     .navbar .navbar-header .navbar-toggle .icon-bar {
       background-color: #ffffff; }
     .navbar .navbar-header .navbar-toggle .icon-bar:hover {
-      background-color: #D76C42; }
+      background-color: #D3693F; }
   .navbar .navbar-nav {
     width: 100%;
     text-align: center; }
@@ -28,7 +28,7 @@
         font-weight: 700;
         font-size: 13px; }
       .navbar .navbar-nav li a:hover {
-        color: #D76C42; }
+        color: #D3693F; }
       .navbar .navbar-nav li .dropdown-menu {
         background-color: #2F1F1F; }
 
@@ -73,7 +73,11 @@
         cursor: pointer; }
 
 .welcome {
-  padding: 70px;
+  color: #DABA85;
+  margin: 0px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #F4F4F4; }
   .welcome .foto-welcome {
     border-radius: 20px; }
@@ -82,16 +86,19 @@
     margin: 0px; }
     .welcome .texto-welcome h2 {
       font-size: 35px;
-      color: #D76C42; }
+      color: #D3693F; }
     .welcome .texto-welcome p {
       color: #333333; }
     .welcome .texto-welcome li {
-      list-style: none; }
+      list-style: none;
+      color: #333333; }
       .welcome .texto-welcome li span {
-        color: #D76C42; }
+        color: #D3693F; }
 
 .about {
-  background-color: #2F1F1F;
+  background-color: #4A3A3A;
+  border-top: 2px solid #DABA85;
+  border-bottom: 2px solid #DABA85;
   color: #DABA85;
   margin: 0px;
   width: 100%;
@@ -149,5 +156,39 @@
       float: right;
       border-radius: 20px;
       margin: 20px; }
+
+.foot {
+  background-color: #2F1F1F;
+  color: #DABA85;
+  margin: 0px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .foot .social {
+    padding-left: 50px;
+    padding-right: 50px; }
+    .foot .social .texto-social {
+      font-size: 13px; }
+      .foot .social .texto-social img {
+        float: left;
+        padding-right: 10px; }
+    .foot .social p {
+      font-size: 13px; }
+    .foot .social h3 {
+      font-size: 15px;
+      font-weight: 700; }
+    .foot .social ul li {
+      list-style: none;
+      display: inline-block; }
+      .foot .social ul li a img {
+        background-color: #BFB68F;
+        border: 5px solid #D3693F;
+        margin-right: 20px; }
+
+.final {
+  font-size: 10px;
+  border-top: 1px solid #DABA85;
+  margin-top: 50px;
+  padding-top: 30px; }
 
 /*# sourceMappingURL=main.css.map */

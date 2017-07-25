@@ -1,10 +1,8 @@
 .about{
-	background-color: $cafe-oscuro;
-	color: $cafe-claro;
-	margin: 0px;
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	background-color: $cafe-oscuro2;
+	border-top: 2px solid $cafe-claro;
+	border-bottom: 2px solid $cafe-claro;
+	@include container();
 	.columna-about-izq{
 		padding-left: 50px;
 		h2{
