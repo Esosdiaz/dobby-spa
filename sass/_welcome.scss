@@ -1,0 +1,26 @@
+.welcome{
+	padding: 70px;
+	background-color: $gris-claro;
+	.foto-welcome{
+		border-radius: 20px;
+		}
+	.texto-welcome{
+		padding:0px;
+		margin:0px; 
+		h2{
+			font-size: $letra-grande2;
+			color: $naranjo;
+		}
+		p{
+			color: $gris-oscuro;
+		}
+		li{
+			list-style: none;
+			span{
+				color: $naranjo;
+			}
+		}
+
+	}
+	}
+	 

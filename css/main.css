@@ -1,0 +1,92 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  margin: 0px;
+  border: none;
+  background-color: #2F1F1F; }
+  .navbar .navbar-header .navbar-toggle:hover {
+    background-color: transparent; }
+  .navbar .navbar-header .navbar-toggle {
+    border: 1px solid #ffffff; }
+    .navbar .navbar-header .navbar-toggle .icon-bar {
+      background-color: #ffffff; }
+    .navbar .navbar-header .navbar-toggle .icon-bar:hover {
+      background-color: #D76C42; }
+  .navbar .navbar-nav {
+    width: 100%;
+    text-align: center; }
+    .navbar .navbar-nav li:hover {
+      background-color: transparent; }
+    .navbar .navbar-nav li {
+      float: none;
+      display: inline-block; }
+      .navbar .navbar-nav li a {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 13px; }
+      .navbar .navbar-nav li a:hover {
+        color: #D76C42; }
+      .navbar .navbar-nav li .dropdown-menu {
+        background-color: #2F1F1F; }
+
+.carousel-indicators {
+  padding: 35px; }
+
+.carousel-inner .item img {
+  width: 100%;
+  height: auto; }
+
+.blog {
+  width: 100%;
+  border-top: 2px solid #333333;
+  padding-top: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  background-color: #E9E0B7; }
+  .blog .row {
+    position: relative;
+    top: -50px; }
+    .blog .row .col-blog {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px; }
+      .blog .row .col-blog img {
+        border: 8px solid #DABA85; }
+      .blog .row .col-blog h3 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+      .blog .row .col-blog p {
+        font-size: 13px;
+        padding-bottom: 10px; }
+      .blog .row .col-blog a {
+        font-size: 13px;
+        background-color: #DABA85;
+        color: #333333;
+        padding: 5px;
+        font-weight: 700; }
+
+.welcome {
+  padding: 70px;
+  background-color: #F4F4F4; }
+  .welcome .foto-welcome {
+    border-radius: 20px; }
+  .welcome .texto-welcome {
+    padding: 0px;
+    margin: 0px; }
+    .welcome .texto-welcome h2 {
+      font-size: 35px;
+      color: #D76C42; }
+    .welcome .texto-welcome p {
+      color: #333333; }
+    .welcome .texto-welcome li {
+      list-style: none; }
+      .welcome .texto-welcome li span {
+        color: #D76C42; }
+
+/*# sourceMappingURL=main.css.map */
