@@ -1,0 +1,74 @@
+.about{
+	background-color: $cafe-oscuro;
+	color: $cafe-claro;
+	margin: 0px;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.columna-about-izq{
+		padding-left: 50px;
+		h2{
+			font-size: $letra-mediana2;
+			text-align: right;
+			font-weight: 700;
+		}
+		.linea-izq{
+			display: inline-block;
+			float: right;
+			.linea1{
+				color: $blanco;
+				float: left;
+				position: relative;
+    			bottom: 6px;
+			}
+			.circulo{
+				color: $blanco;
+			}
+		}
+		.texto-about{
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-left: 0px;
+			padding-right: 0px;
+			font-size: $letra-chica2
+		}
+		img{
+			float: left;
+			border-radius: 20px;
+			margin: 20px;
+		}
+	}
+	.columna-about-der{
+		padding-right: 50px;
+		h2{
+			font-size: $letra-mediana2;
+			text-align: left;
+			font-weight: 700;
+		}
+		.linea-der{
+			display: inline-block;
+			float: left;
+			.linea2{
+				color: $blanco;
+				float: right;
+				position: relative;
+    			bottom: 6px;
+			}
+			.circulo{
+				color: $blanco;
+			}
+		}
+		.texto-about{
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-left: 0px;
+			padding-right: 0px;
+			font-size: $letra-chica2
+		}
+		img{
+			float: right;
+			border-radius: 20px;
+			margin: 20px;
+		}
+	}
+}
