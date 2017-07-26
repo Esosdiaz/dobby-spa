@@ -82,7 +82,7 @@
   .welcome .foto-welcome {
     border-radius: 20px; }
   .welcome .texto-welcome {
-    padding: 0px;
+    padding: 20px;
     margin: 0px; }
     .welcome .texto-welcome h2 {
       font-size: 35px;
@@ -166,7 +166,9 @@
   padding-bottom: 50px; }
   .foot .social {
     padding-left: 50px;
-    padding-right: 50px; }
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
     .foot .social .texto-social {
       font-size: 13px; }
       .foot .social .texto-social img {
@@ -183,7 +185,9 @@
       .foot .social ul li a img {
         background-color: #BFB68F;
         border: 5px solid #D3693F;
-        margin-right: 20px; }
+        margin-right: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px; }
 
 .final {
   font-size: 10px;
